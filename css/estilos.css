@@ -28,6 +28,11 @@ header
     flex-direction: column;
 }
 
+a:visited
+{
+    color:red;
+}
+
 .resena
 {
     flex-wrap: wrap;
