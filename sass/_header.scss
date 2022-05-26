@@ -1,0 +1,84 @@
+header
+{
+    display: flex;
+    align-items: center;
+}
+.menu
+{
+    &__header__index
+    {
+        width: 100%;
+        height: 100%;
+        background-color:$color-azure;
+        font-size: 25px;
+        padding: 10px;
+        font-size: 25px;
+        padding-top: 0px;
+    }
+    &__header__tienda
+    {
+        background-color: $color-tienda;
+        width: 100%;
+        height: 100%;
+        font-size: 25px;
+    }
+    &__header__tienda3
+    {
+        background-color: $color-tienda;
+        padding: 10px;
+        font-size: 25px;
+        padding-top: 0px;
+    }
+    &__header__perros2
+    {
+        background-color:$color-perro;
+        padding: 10px;
+        font-size: 25px;
+        padding-top: 0px;
+    }
+    &__header__perros
+    {
+        background-color:$color-perro;
+        width: 100%;
+        height: 100%;
+        font-size: 25px;
+    }
+    &__header__gatos2
+    {
+        background-color:$color-gatos2;
+        padding: 10px;
+        font-size: 25px;
+        font-size: 25px;
+        padding-top: 0px;
+    }
+    &__header__gatos
+    {
+        background-color:$color-gatos2;
+        width: 100%;
+        height: 100%;
+        font-size: 25px;
+    }
+    &__header__trabaja
+    {
+        width: 100%;
+        height: 100%;
+        background-color:$color-trabajo;
+        font-size: 25px;
+    }
+    &__header__trabaja4    
+    {
+
+        background-color: $color-trabajo;
+        padding: 10px;
+        font-size: 25px;
+        padding-top: 10px;
+
+    }
+    &__header
+    {
+        width: 100%;
+        height: 100%;
+        background-color:$color-azure;
+        font-size: 25px;
+    }
+}

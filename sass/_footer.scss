@@ -1,0 +1,32 @@
+footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer
+{
+    &__index
+    {
+        background: $color-azure;
+    }
+    &__tienda
+    {
+        background:  $color-tienda;
+    }
+    &__perro
+    {
+        background:  $color-perro;
+    }
+    &__gato
+    {
+        background:  $color-gatos2;
+    }
+    &__trabaja
+    {
+        background: $color-trabajo; 
+    }
+    
+}
