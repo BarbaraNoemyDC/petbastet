@@ -1,0 +1,35 @@
+/*MIXIN*/
+@mixin tamañoImagenes ($background:none)
+{
+    width: 200px;
+    height: 200px; 
+    border-radius: 30px;    
+    margin-right: 10px;
+    margin-bottom: 13px;   
+}
+
+.perros__imagenes
+{
+    @include tamañoImagenes;
+    border: 3px solid $color-azul;
+    
+}
+
+.gatos__imagenes
+{
+    @include tamañoImagenes;
+    border: 3px solid $color-naranjo;
+}
+
+@mixin tamañoTienda ($background: none)
+{
+    width: 280px;
+    height: 280px;
+}
+
+tienda__imagenes
+{
+    @include tamañoTienda;
+    border: 3px solid $color-rojo;
+    border-radius: 30px;;
+}
