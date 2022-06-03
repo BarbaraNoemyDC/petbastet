@@ -81,6 +81,10 @@ a:visited
         width: 100%;
         margin: 0.2rem; 
     }
+    &__titulo2
+    {
+        font-size: 1.36rem;
+    }
 }
  
 .ubicacion
@@ -92,13 +96,29 @@ a:visited
     }
 }
 
-.secciones .secciones1 h5
+.secciones .secciones1 h3, .secciones1 h4, .secciones1 h5
 {
     display: flex;
     font-size: 1rem;
     flex-direction: column;
     width: 100%;
 }
+
+.titulo__dos
+{
+    font-size: 10rem;
+}
+
+h4
+{
+    font-size: 1.2rem;
+}
+
+h5
+{
+    font-size: 1.2rem;
+}
+
 
 .secciones .secciones1
 {
@@ -109,7 +129,7 @@ a:visited
     margin-left: 2rem;
 }
 
-.secciones2 h5
+.secciones2 h3, .secciones2 h4, .secciones2 h5
 {
     display: flex;
     font-size: 1rem;
@@ -478,6 +498,11 @@ form
     padding-right: 30px;
     margin-left: calc(15%);
     margin-bottom: 20px;
+}
+
+.flex-column
+{
+    align-items: center
 }
 
 .mb-4 
