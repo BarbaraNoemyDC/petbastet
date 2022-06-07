@@ -847,3 +847,382 @@
         }
     }
 }
+
+@media (min-width: 1200px) and (max-width: 1556px)
+{
+   
+    header
+    {
+        display: flex;
+    }
+
+    .menu__header
+    {
+        background-color:$color-azure;
+        justify-content: center;
+    }
+
+    .menu__menu2
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 2rem;
+        margin: 0.1rem;
+    }
+
+    .imagen__catalogo
+    {
+        width: 25rem;
+        height: 13rem;
+
+    }
+
+    .titulo__tienda
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.5rem;
+    }
+
+    .resena__contenido
+    {
+        margin: 20px;
+        font-style: italic;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    .resena__titulo
+    {
+        margin: 0.2rem;
+        font-size: 2rem;
+    }
+
+    .secciones1 h5
+    {
+        display: flex;
+        font-size: 1.5rem;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .secciones h5
+    {
+        display: flex;
+        font-size: 1.5rem;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .secciones2 h5.redes__texto
+    {
+        display: flex;
+        font-size: 1.5rem;
+    }
+
+    .ubicacion__texto
+    {
+        flex-direction: column;
+    }
+
+    .secciones1 .secciones p
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 100vw;
+        font-size: 1.5rem;
+    }
+
+    .secciones a
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        font-size: 1.5rem;
+    }
+
+    .secciones2 a
+    {
+        display: flex;
+        font-size: 1.1rem;
+    }
+
+    li
+    {
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 20px;
+        margin-right: 0px;
+    }
+
+    img .ubicacion
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    footer
+    {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .tienda
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        &__textos
+        {
+            display: flex;
+            justify-content: center;
+            font-size: 1.7rem;
+        }
+        &__imagenes
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 18rem;
+            height: 18rem;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            transition: width 0.4s, height 0.4s;
+        }
+        &__imagenes:hover
+        {
+        width: 300px;
+        height: 300px;
+        }
+    
+    }
+
+    .grid
+    {
+        &_tienda
+        {
+            display: flex;
+            align-items: center;
+            width: 100vw;
+        }
+        &__perros
+
+        {
+            display: flex;
+            align-items: center;
+            width: 100vw;
+        }
+        &__gatos
+
+        {
+            display: flex;
+            align-items: center;
+            width: 100vw;
+        }
+    }
+
+    .perros
+    {
+        &__textos
+        {
+            display: flex;
+            justify-content: center;
+            font-size: 1.7rem;
+        }
+        &__imagenes
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 18rem;
+            height: 18rem;
+            text-align: center;
+            width: 190px;
+            height: 190px;
+            text-align: center;
+            transition: width 0.4s, height 0.4s;
+        }
+        &__imagenes:hover
+        {
+        width: 280px;
+        height: 280px;
+        }
+    }
+
+    /* GATOS*/
+
+    .menu__header
+    {
+        &__gatos
+        {
+            background-color:$color-gatos;
+            justify-content: center;
+        }
+        &__trabaja4
+        {
+    
+            background-color: $color-trabajo;
+            padding: 10px;
+            font-size: 25px;
+    
+        }
+        &__trabaja
+        {
+            background-color: $color-trabajo;
+            width: 100%;
+            height: 100%;
+            font-size: 2.5rem;
+        }
+    }
+
+    .gatos
+    {
+        &__textos
+        {
+            display: flex;
+            justify-content: center;
+            font-size: 1.7rem;
+        }
+        &__imagenes
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 18rem;
+            height: 18rem;
+            text-align: center;
+            width: 250px;
+            height: 250px;
+            text-align: center;
+            transition: width 0.4s, height 0.4s;
+        }
+        &__imagenes:hover
+        {
+        width: 300px;
+        height: 300px;
+        }
+    }
+
+    /*TRABAJA CON NOSOTROS*/
+    form
+    {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .titulo2
+    {
+        display: flex;
+    }
+
+
+    .trabaja__nosotros
+    {
+        border: 5px solid $color-trabajo2;
+        font-style: italic;
+        width: 825px;
+        border-radius: 30px;
+        margin-left: calc(0%);
+    }
+
+    .label
+    {
+        &__trabaja
+        {
+            margin: 10px;
+            width: 80%;
+        }
+        &__trabaja2
+        {
+            margin: 5px;
+            margin-top: 20px;
+            font-size: 1.5rem;
+        }
+        &__trabaja1
+        {
+            width: 80%;
+            height: 50%;
+        }
+    }
+
+    
+
+    .input
+    {
+        &__trabaja2
+        {
+            margin: 2rem;
+            margin-left: 2.5rem;
+            text-align: center;
+            align-items: center;
+            align-self: center;
+        }
+        &__trabaja
+        {
+            width: 60%;
+            margin-top: 10px;
+            border-radius: 30px;
+            padding-left: 7px;
+        }
+        &input__trabaja1
+        {
+            margin: 3px;
+        }
+    }
+    
+
+    .titulo
+    {
+        &__trabaja
+        {
+            margin: 5px;
+            margin-left: 10%;
+            font-size:55px;
+            font-style:$font-principal;
+
+        }
+        &__trabaja2
+        {
+            text-align: start;
+            font-style:$font-principal;
+        }
+    }    
+
+    .btn
+    {
+        &__1
+        {
+            background-color: $color-verde2;
+            border:$color-verde2;
+            color: white;
+            padding: 20px 35px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 30px;
+            margin-left: calc(16% - 35px - 5px);
+
+        }
+    }
+
+    .img-fluid {
+        width: 500px;
+        height: 300px;
+        padding: 5px;
+        border: 3px solid red;
+        border-radius: 30px;
+        transition: width 0.5s, height 0.5s;
+    }
+}
