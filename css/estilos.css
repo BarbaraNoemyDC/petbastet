@@ -1222,7 +1222,7 @@ footer {
     border-radius: 30px;
     transition: width 0.5s, height 0.5s; } }
 
-@media (min-width: 1496px) and (max-width: 1600px) {
+@media (min-width: 1496px) and (max-width: 2500px) {
   header {
     display: flex; }
   .logo__bastet {
