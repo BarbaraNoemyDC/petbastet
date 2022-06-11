@@ -1228,6 +1228,8 @@ footer {
 @media (min-width: 1496px) and (max-width: 1600px) {
   header {
     display: flex; }
+  .logo__bastet {
+    display: inline; }
   .menu__header {
     background-color: azure;
     justify-content: center; }
