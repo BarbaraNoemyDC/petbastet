@@ -188,7 +188,7 @@ footer {
       padding-block: 5px;
       font-size: 25px;
       justify-content: center;
-      border: 1px solid #95E2E8; }
+      border: 1px solid #B2FFF5; }
     .menu__header__tienda {
       background-color: #FFBAB2;
       width: 100%;
@@ -207,9 +207,13 @@ footer {
       border: 1px solid #4663EF; }
     .menu__header__trabaja4 {
       background-color: #BAF0C4;
-      padding: 10px;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      padding-block: 5px;
       font-size: 25px;
-      justify-content: center; }
+      justify-content: center;
+      border: 1px solid #BAF0C4; }
     .menu__header__gatos {
       background-color: #ffd697;
       justify-content: center;
@@ -1678,19 +1682,17 @@ ul {
 
 .tienda {
   display: flex;
-  margin-left: 10px;
-  flex-direction: row; }
+  margin-left: 10px; }
   .tienda__imagenes {
+    margin-right: 10px;
+    margin-bottom: 15px;
     padding: 5px;
-    transition: width 0.4s, height 0.4s; }
-  .tienda__imagenes:hover {
-    width: 200px;
-    height: 200px; }
+    transition: width 0.5s, height 0.5s; }
   .tienda__textos {
     font-style: italic;
-    margin: 0px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    margin: 9px;
+    padding-right: 15px;
+    padding-bottom: 15px;
     justify-content: center;
     text-align: center; }
   .tienda__grid {
@@ -1786,7 +1788,7 @@ form {
   text-align: center; }
 
 .trabaja__nosotros {
-  border: 5px solid green;
+  border: 3px solid green;
   font-style: italic;
   width: 70%;
   border-radius: 30px;

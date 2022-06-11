@@ -324,34 +324,31 @@ ul
 {
     display: flex;
     margin-left: 10px;
-    flex-direction: row;
+
     &__imagenes
     {
+        margin-right: 10px;
+        margin-bottom: 15px;
         padding: 5px;
-        transition: width 0.4s, height 0.4s;
-    }
-    &__imagenes:hover
-    {
-      width: 200px;
-      height: 200px;
+        transition: width 0.5s, height 0.5s;
     }
     &__textos
     {
-        font-style: $font-principal2;
-        margin: 0px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        justify-content: center;
-        text-align: center;
-    } 
+       font-style: $font-principal2;
+       margin: 9px;
+       padding-right: 15px;
+       padding-bottom: 15px;
+       justify-content: center;
+       text-align: center;
+    }
     &__grid
     {
-        align-items: center;
-        justify-content: center;
-        align-self: center;
-        object-fit:cover;
-        transition:0.5s ease-in;
-        position: relative;
+       align-items: center;
+       justify-content: center;
+       align-self: center;
+       object-fit:cover;
+       transition:0.5s ease-in;
+       position: relative;
     }
    
 }
@@ -476,7 +473,7 @@ form
 
 .trabaja__nosotros
 {
-    border: 5px solid $color-trabajo2;
+    border: 3px solid $color-trabajo2;
     font-style: $font-principal2;
     width: 70%;
     border-radius: 30px;

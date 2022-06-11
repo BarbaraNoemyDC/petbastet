@@ -200,9 +200,13 @@
         {
     
             background-color: $color-trabajo;
-            padding: 10px;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            padding-block: 5px;
             font-size: 25px;
             justify-content: center;
+            border: 1px solid $color-trabajo;
         }
         &__gatos
         {
