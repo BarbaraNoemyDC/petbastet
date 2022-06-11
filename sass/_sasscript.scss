@@ -21,8 +21,9 @@
 
 @mixin tamañoTienda ($background: none)
 {
-    width: 280px;
-    height: 280px;
+    border-radius: 30px;    
+    margin-right: 10px;
+    margin-bottom: 13px;
 }
 
 .tienda__imagenes
