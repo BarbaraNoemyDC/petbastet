@@ -101,7 +101,7 @@ footer {
     margin: 0.1rem;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center; }
   .imagen__catalogo {
     width: 21rem;
