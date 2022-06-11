@@ -1629,6 +1629,11 @@
         display: flex;
     }
 
+    .logo__bastet
+    {
+       display: none;
+    }
+
     .menu__header
     {
         background-color:$color-azure;
@@ -2013,6 +2018,7 @@
     {
        display: inline ;
     }
+    
     .menu__header
     {
         background-color:$color-azure;
