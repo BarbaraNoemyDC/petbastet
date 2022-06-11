@@ -209,22 +209,21 @@ nav
 ul
 {
     display: flex;
-    justify-content: flex-end; /* por default  */
+    justify-content: flex-end; 
     font-family: 'Barlow Condensed', sans-serif;
     align-items: center; 
-    /* margin-bottom: 0%; */
     align-self: center;
    
 }
 
 .menu__menu2
 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin: 0.1rem;
     ul
     {
         display: flex;
-        justify-content: flex-end; /* por default  */
+        justify-content: flex-end;
         font-family: 'Barlow Condensed', sans-serif;
         align-items: center;
     }
@@ -325,8 +324,6 @@ ul
     margin-left: auto;
 }
 
-
-
 .tienda
 {
     display: flex;
@@ -424,11 +421,11 @@ ul
     &__textos
     {
         font-style: $font-principal2;
-        margin:4px;
-        padding-right: 15px;
-        padding-bottom: 15px;
+        margin: 0px;
+        padding-right: 10px;
+        padding-bottom: 10px;
         justify-content: center;
-        text-align: center
+        text-align: center;
     } 
     &__grid
     {
@@ -454,17 +451,17 @@ ul
     }
     &__imagenes:hover
     {
-      width: 230px;
-      height: 230px;
+      width: 200px;
+      height: 200px;
     }
     &__textos
     {
         font-style: $font-principal2;
-        margin:4px;
-        padding-right: 15px;
-        padding-bottom: 15px;
+        margin: 0px;
+        padding-right: 10px;
+        padding-bottom: 10px;
         justify-content: center;
-        text-align: center
+        text-align: center;
     }
     &__grid
     {
@@ -571,7 +568,7 @@ form
 {
     margin: 10px;
     font-size:25px;
-    background-color: $color-verde2; /* Green */
+    background-color: $color-verde2; 
     border:$color-verde2;
     color: $color-blanco1;
     padding: 15px 32px;
@@ -611,7 +608,8 @@ div .bs_form_footer
 /*INDEX*/
 
 .f
-{   &__index:first-child
+{  
+    &__index:first-child
     {
         border-top-left-radius: inherit;
         border-top-right-radius: inherit;
@@ -666,6 +664,7 @@ div .bs_form_footer
         border-top-width: 0;
         background: $color-trabajo;
     }
+}
 
     /*borrar*/
 
@@ -721,4 +720,4 @@ div .bs_form_footer
     //     width: 100%;
     // }
     
-}
+

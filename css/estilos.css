@@ -88,7 +88,7 @@ footer {
   background: #BAF0C4; }
 
 /* Celular */
-@media (min-width: 320px) and (max-width: 540px) {
+@media (min-width: 320px) and (max-width: 575px) {
   /* INDEX PROBO FORMULARIO CON IPHONE 12 PRO / 390 X 844 */
   .navbar-nav {
     padding-right: 1px;
@@ -190,21 +190,24 @@ footer {
       height: 100%;
       padding-block: 5px;
       font-size: 25px;
-      justify-content: center; }
+      justify-content: center;
+      border: 1px solid #95E2E8; }
     .menu__header__tienda {
       background-color: #FFBAB2;
       width: 100%;
       height: 100%;
       padding-block: 5px;
       font-size: 25px;
-      justify-content: center; }
+      justify-content: center;
+      border: 1px solid #EE8C7A; }
     .menu__header__perros {
       background-color: #95C8FF;
       width: 100%;
       height: 100%;
       padding-block: 5px;
       font-size: 25px;
-      justify-content: center; }
+      justify-content: center;
+      border: 1px solid #4663EF; }
     .menu__header__trabaja4 {
       background-color: #BAF0C4;
       padding: 10px;
@@ -217,14 +220,16 @@ footer {
       height: 100%;
       padding-block: 5px;
       font-size: 25px;
-      justify-content: center; }
+      justify-content: center;
+      border: 1px solid #E8A922; }
     .menu__header__trabaja {
       background-color: #BAF0C4;
       width: 100%;
       height: 100%;
       padding-block: 5px;
       font-size: 25px;
-      justify-content: center; }
+      justify-content: center;
+      border: 2px solid #35E26C; }
     .menu__header__trabaja {
       background-color: #BAF0C4;
       justify-content: center; }
@@ -251,15 +256,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 18rem;
-    height: 18rem;
-    width: 240px;
-    height: 240px;
+    width: 220px;
+    height: 220px;
     text-align: center;
     transition: width 0.4s, height 0.4s; }
   .perros__imagenes:hover {
-    width: 270px;
-    height: 270px; }
+    width: 250px;
+    height: 250px; }
   .perros__imagenes:hover {
     width: 260px;
     height: 260px; }
@@ -279,16 +282,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 18rem;
-    height: 18rem;
     text-align: center;
-    width: 240px;
-    height: 240px;
+    width: 220px;
+    height: 220px;
     text-align: center;
     transition: width 0.4s, height 0.4s; }
   .gatos__imagenes:hover {
-    width: 270px;
-    height: 270px; }
+    width: 250px;
+    height: 250px; }
   .gatos__textos {
     display: flex;
     justify-content: center;
@@ -363,7 +364,222 @@ footer {
     margin: 0px; } }
 
 /*TABLET*/
-@media (min-width: 541px) and (max-width: 720px) {
+@media (min-width: 576px) and (max-width: 768px) {
+  header {
+    display: flex; }
+  .menu__header {
+    background-color: azure;
+    justify-content: center; }
+  .menu__menu2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: rem;
+    margin: 0.1rem; }
+  .imagen__catalogo {
+    width: 25rem;
+    height: 13rem; }
+  .titulo__tienda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem; }
+  .logo__bastet {
+    display: none; }
+  .resena__contenido {
+    margin: 20px;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: justify; }
+  .resena__titulo {
+    margin: 0.2rem;
+    font-size: 2rem; }
+  .secciones1 h5 {
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    width: 100%; }
+  .secciones h5 {
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    width: 100%; }
+  .secciones2 h5.redes__texto {
+    display: flex;
+    font-size: 1.5rem; }
+  .ubicacion__texto {
+    flex-direction: column; }
+  .secciones1 .secciones p {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100vw;
+    font-size: 1.5rem; }
+  .secciones a {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 1.5rem; }
+  .secciones2 a {
+    display: flex;
+    font-size: 1.1rem; }
+  li {
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 20px;
+    margin-right: 0px; }
+  .menu1 .menu2 .menu3 .menu4 .menu5 {
+    transition: none; }
+    .menu1 .menu2 .menu3 .menu4 .menu5 :hover .menu1 .menu2 .menu3 .menu4 .menu5 {
+      transform: none;
+      transition: none; }
+  img .ubicacion {
+    width: 100%;
+    flex-direction: column; }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center; }
+  .tienda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem; }
+    .tienda__textos {
+      display: flex;
+      justify-content: center;
+      font-size: 1.7rem; }
+    .tienda__imagenes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 200px;
+      height: 200px;
+      text-align: center;
+      transition: width 0.4s, height 0.4s; }
+    .tienda__imagenes:hover {
+      width: 300px;
+      height: 300px; }
+  .grid_tienda {
+    display: flex;
+    align-items: center;
+    width: 100vw; }
+  .grid__perros {
+    display: flex;
+    align-items: center;
+    width: 100vw; }
+  .grid__gatos {
+    display: flex;
+    align-items: center;
+    width: 100vw; }
+  .perros__textos {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-style: italic;
+    margin: 0px;
+    padding-right: 10px;
+    padding-bottom: 13px;
+    text-align: center; }
+  .perros__imagenes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    transition: width 0.4s, height 0.4s; }
+  .perros__imagenes:hover {
+    width: 190px;
+    height: 190px; }
+  /* GATOS*/
+  .menu__header__gatos {
+    background-color: #ffd697;
+    justify-content: center; }
+  .menu__header__trabaja4 {
+    background-color: #BAF0C4;
+    padding: 10px;
+    font-size: 25px; }
+  .menu__header__trabaja {
+    background-color: #BAF0C4;
+    width: 100%;
+    height: 100%;
+    font-size: 2.5rem; }
+  .gatos__textos {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem; }
+  .gatos__imagenes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    transition: width 0.4s, height 0.4s; }
+  .gatos__imagenes:hover {
+    width: 190px;
+    height: 190px; }
+  /*TRABAJA CON NOSOTROS*/
+  form {
+    justify-content: center;
+    align-items: center; }
+  .titulo2 {
+    display: flex; }
+  .trabaja__nosotros {
+    border: 5px solid green;
+    font-style: italic;
+    width: 825px;
+    border-radius: 30px;
+    margin-left: calc(0%); }
+  .label__trabaja {
+    margin: 10px;
+    width: 80%; }
+  .label__trabaja2 {
+    margin: 5px;
+    margin-top: 20px;
+    font-size: 1.5rem; }
+  .label__trabaja1 {
+    width: 80%;
+    height: 50%; }
+  .input__trabaja2 {
+    margin: 2rem;
+    margin-left: 2.5rem;
+    text-align: center;
+    align-items: center;
+    align-self: center; }
+  .input__trabaja {
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding-left: 7px; }
+  .inputinput__trabaja1 {
+    margin: 3px; }
+  .titulo__trabaja {
+    margin: 5px;
+    margin-left: 10%;
+    font-size: 55px;
+    font-style: oblique; }
+  .titulo__trabaja2 {
+    text-align: start;
+    font-style: oblique; }
+  .btn__1 {
+    background-color: #4CAF50;
+    border: #4CAF50;
+    color: white;
+    padding: 20px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-left: calc(16% - 35px - 5px); } }
+
+@media (min-width: 767px) and (max-width: 991px) {
   header {
     display: flex; }
   .menu__header {
@@ -479,21 +695,24 @@ footer {
   .perros__textos {
     display: flex;
     justify-content: center;
-    font-size: 1.7rem; }
+    font-size: 1.6rem;
+    font-style: italic;
+    margin: 0px;
+    padding-right: 10px;
+    padding-bottom: 13px;
+    text-align: center; }
   .perros__imagenes {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 18rem;
-    height: 18rem;
     text-align: center;
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     text-align: center;
     transition: width 0.4s, height 0.4s; }
   .perros__imagenes:hover {
-    width: 300px;
-    height: 300px; }
+    width: 190px;
+    height: 190px; }
   /* GATOS*/
   .menu__header__gatos {
     background-color: #ffd697;
@@ -510,21 +729,19 @@ footer {
   .gatos__textos {
     display: flex;
     justify-content: center;
-    font-size: 1.7rem; }
+    font-size: 1.6rem; }
   .gatos__imagenes {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 18rem;
-    height: 18rem;
     text-align: center;
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     text-align: center;
     transition: width 0.4s, height 0.4s; }
   .gatos__imagenes:hover {
-    width: 300px;
-    height: 300px; }
+    width: 190px;
+    height: 190px; }
   /*TRABAJA CON NOSOTROS*/
   form {
     justify-content: center;
@@ -579,13 +796,241 @@ footer {
     border-radius: 30px;
     margin-left: calc(16% - 35px - 5px); } }
 
-@media (min-width: 1200px) and (max-width: 1556px) {
+@media (min-width: 991px) and (max-width: 1199px) {
   header {
     display: flex; }
   .menu__header {
     background-color: azure;
     justify-content: center; }
   .menu__menu2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0.1rem; }
+  .imagen__catalogo {
+    width: 25rem;
+    height: 13rem; }
+  .titulo__tienda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem; }
+  .logo__bastet {
+    display: none; }
+  .resena__contenido {
+    margin: 20px;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: justify; }
+  .resena__titulo {
+    margin: 0.2rem;
+    font-size: 2rem; }
+  .secciones1 h5 {
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    width: 100%; }
+  .secciones h5 {
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    width: 100%; }
+  .secciones2 h5.redes__texto {
+    display: flex;
+    font-size: 1.5rem; }
+  .ubicacion__texto {
+    flex-direction: column; }
+  .secciones1 .secciones p {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100vw;
+    font-size: 1.5rem; }
+  .secciones a {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 1.5rem; }
+  .secciones2 a {
+    display: flex;
+    font-size: 1.1rem; }
+  li {
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 20px;
+    margin-right: 0px; }
+  .menu1 .menu2 .menu3 .menu4 .menu5 {
+    transition: none; }
+    .menu1 .menu2 .menu3 .menu4 .menu5 :hover .menu1 .menu2 .menu3 .menu4 .menu5 {
+      transform: none;
+      transition: none; }
+  img .ubicacion {
+    width: 100%;
+    flex-direction: column; }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center; }
+  .tienda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem; }
+    .tienda__textos {
+      display: flex;
+      justify-content: center;
+      font-size: 1.7rem; }
+    .tienda__imagenes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18rem;
+      height: 18rem;
+      text-align: center;
+      width: 250px;
+      height: 250px;
+      text-align: center;
+      transition: width 0.4s, height 0.4s; }
+    .tienda__imagenes:hover {
+      width: 300px;
+      height: 300px; }
+  .grid_tienda {
+    display: flex;
+    align-items: center;
+    width: 100vw; }
+  .grid__perros {
+    display: flex;
+    align-items: center;
+    width: 100vw; }
+  .grid__gatos {
+    display: flex;
+    align-items: center;
+    width: 100vw; }
+  .perros__textos {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-style: italic;
+    margin: 0px;
+    padding-right: 10px;
+    padding-bottom: 13px;
+    text-align: center; }
+  .perros__imagenes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    transition: width 0.4s, height 0.4s; }
+  .perros__imagenes:hover {
+    width: 190px;
+    height: 190px; }
+  /* GATOS*/
+  .menu__header__gatos {
+    background-color: #ffd697;
+    justify-content: center; }
+  .menu__header__trabaja4 {
+    background-color: #BAF0C4;
+    padding: 10px;
+    font-size: 25px; }
+  .menu__header__trabaja {
+    background-color: #BAF0C4;
+    width: 100%;
+    height: 100%;
+    font-size: 2.5rem; }
+  .gatos__textos {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-style: italic;
+    margin: 0px;
+    padding-right: 10px;
+    padding-bottom: 13px;
+    text-align: center; }
+  .gatos__imagenes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    transition: width 0.4s, height 0.4s; }
+  .gatos__imagenes:hover {
+    width: 190px;
+    height: 190px; }
+  /*TRABAJA CON NOSOTROS*/
+  form {
+    justify-content: center;
+    align-items: center; }
+  .titulo2 {
+    display: flex; }
+  .trabaja__nosotros {
+    border: 5px solid green;
+    font-style: italic;
+    width: 825px;
+    border-radius: 30px;
+    margin-left: calc(0%); }
+  .label__trabaja {
+    margin: 10px;
+    width: 80%; }
+  .label__trabaja2 {
+    margin: 5px;
+    margin-top: 20px;
+    font-size: 1.5rem; }
+  .label__trabaja1 {
+    width: 80%;
+    height: 50%; }
+  .input__trabaja2 {
+    margin: 2rem;
+    margin-left: 2.5rem;
+    text-align: center;
+    align-items: center;
+    align-self: center; }
+  .input__trabaja {
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding-left: 7px; }
+  .inputinput__trabaja1 {
+    margin: 3px; }
+  .titulo__trabaja {
+    margin: 5px;
+    margin-left: 10%;
+    font-size: 55px;
+    font-style: oblique; }
+  .titulo__trabaja2 {
+    text-align: start;
+    font-style: oblique; }
+  .btn__1 {
+    background-color: #4CAF50;
+    border: #4CAF50;
+    color: white;
+    padding: 20px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-left: calc(16% - 35px - 5px); } }
+
+@media (min-width: 1199px) and (max-width: 1496px) {
+  header {
+    display: flex; }
+  .menu__header {
+    background-color: azure;
+    justify-content: center; }
+  .menu__menu2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 0.1rem; }
+  .nav-item {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -666,14 +1111,12 @@ footer {
       width: 18rem;
       height: 18rem;
       text-align: center;
-      width: 200px;
-      height: 200px;
       text-align: center;
       transition: width 0.4s, height 0.4s; }
     .tienda__imagenes:hover {
       width: 300px;
       height: 300px; }
-  .grid_tienda {
+  .grid__tienda {
     display: flex;
     align-items: center;
     width: 100vw; }
@@ -696,8 +1139,8 @@ footer {
     width: 18rem;
     height: 18rem;
     text-align: center;
-    width: 190px;
-    height: 190px;
+    width: 200px;
+    height: 200px;
     text-align: center;
     transition: width 0.4s, height 0.4s; }
   .perros__imagenes:hover {
@@ -719,21 +1162,24 @@ footer {
   .gatos__textos {
     display: flex;
     justify-content: center;
-    font-size: 1.7rem; }
+    font-size: 1.6rem;
+    font-style: italic;
+    margin: 0px;
+    padding-right: 10px;
+    padding-bottom: 13px;
+    text-align: center; }
   .gatos__imagenes {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 18rem;
-    height: 18rem;
     text-align: center;
-    width: 250px;
-    height: 250px;
+    width: 175px;
+    height: 175px;
     text-align: center;
     transition: width 0.4s, height 0.4s; }
   .gatos__imagenes:hover {
-    width: 300px;
-    height: 300px; }
+    width: 160px;
+    height: 160px; }
   /*TRABAJA CON NOSOTROS*/
   form {
     justify-content: center;
@@ -797,16 +1243,12 @@ footer {
 
 /*MIXIN*/
 .perros__imagenes {
-  width: 200px;
-  height: 200px;
   border-radius: 30px;
   margin-right: 10px;
   margin-bottom: 13px;
   border: 3px solid blue; }
 
 .gatos__imagenes {
-  width: 200px;
-  height: 200px;
   border-radius: 30px;
   margin-right: 10px;
   margin-bottom: 13px;
@@ -961,19 +1403,16 @@ nav {
 ul {
   display: flex;
   justify-content: flex-end;
-  /* por default  */
   font-family: 'Barlow Condensed', sans-serif;
   align-items: center;
-  /* margin-bottom: 0%; */
   align-self: center; }
 
 .menu__menu2 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin: 0.1rem; }
   .menu__menu2 ul {
     display: flex;
     justify-content: flex-end;
-    /* por default  */
     font-family: 'Barlow Condensed', sans-serif;
     align-items: center; }
 
@@ -1106,9 +1545,9 @@ ul {
     height: 230px; }
   .perros__textos {
     font-style: italic;
-    margin: 4px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    margin: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     justify-content: center;
     text-align: center; }
   .perros__grid {
@@ -1128,13 +1567,13 @@ ul {
     border: 3px solid orange;
     transition: width 0.4s, height 0.4s; }
   .gatos__imagenes:hover {
-    width: 230px;
-    height: 230px; }
+    width: 200px;
+    height: 200px; }
   .gatos__textos {
     font-style: italic;
-    margin: 4px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    margin: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     justify-content: center;
     text-align: center; }
   .gatos__grid {
@@ -1208,7 +1647,6 @@ form {
   margin: 10px;
   font-size: 25px;
   background-color: #4CAF50;
-  /* Green */
   border: #4CAF50;
   color: #fff;
   padding: 15px 32px;
@@ -1237,40 +1675,49 @@ div .bs_form_footer {
   margin-top: 20px; }
 
 /*INDEX*/
-.f {
-  /*borrar*/ }
-  .f__index:first-child {
-    border-top-left-radius: inherit;
-    border-top-right-radius: inherit;
-    background: azure; }
-  .f__index + .list-group-item {
-    border-top-width: 0;
-    background: azure; }
-  .f__tienda:first-child {
-    border-top-left-radius: inherit;
-    border-top-right-radius: inherit;
-    background: #FFBAB2; }
-  .f__tienda + .list-group-item {
-    border-top-width: 0;
-    background: #FFBAB2; }
-  .f__perro:first-child {
-    border-top-left-radius: inherit;
-    border-top-right-radius: inherit;
-    background: #95C8FF; }
-  .f__perro + .list-group-item {
-    border-top-width: 0;
-    background: #95C8FF; }
-  .f__gato:first-child {
-    border-top-left-radius: inherit;
-    border-top-right-radius: inherit;
-    background: #ffd697; }
-  .f__gato + .list-group-item {
-    border-top-width: 0;
-    background: #ffd697; }
-  .f__trabaja:first-child {
-    border-top-left-radius: inherit;
-    border-top-right-radius: inherit;
-    background: #BAF0C4; }
-  .f__trabaja + .list-group-item {
-    border-top-width: 0;
-    background: #BAF0C4; }
+.f__index:first-child {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  background: azure; }
+
+.f__index + .list-group-item {
+  border-top-width: 0;
+  background: azure; }
+
+.f__tienda:first-child {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  background: #FFBAB2; }
+
+.f__tienda + .list-group-item {
+  border-top-width: 0;
+  background: #FFBAB2; }
+
+.f__perro:first-child {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  background: #95C8FF; }
+
+.f__perro + .list-group-item {
+  border-top-width: 0;
+  background: #95C8FF; }
+
+.f__gato:first-child {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  background: #ffd697; }
+
+.f__gato + .list-group-item {
+  border-top-width: 0;
+  background: #ffd697; }
+
+.f__trabaja:first-child {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  background: #BAF0C4; }
+
+.f__trabaja + .list-group-item {
+  border-top-width: 0;
+  background: #BAF0C4; }
+
+/*borrar*/
