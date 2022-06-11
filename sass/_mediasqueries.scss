@@ -234,11 +234,14 @@
         }
     }
 
-    .tienda__textos
-    {
-        display: flex;
-        justify-content: center;
-        font-size: 1.7rem;
+    .tienda
+   {
+        &__textos
+        {
+            display: flex;
+            justify-content: center;
+            font-size: 1.7rem;
+        }
         &__imagenes
         {
             display: flex;
@@ -247,7 +250,6 @@
             text-align: center;
             width: 190px;
             height: 190px;
-            text-align: center;
             transition: width 0.4s, height 0.4s;
         }
         &__imagenes:hover
@@ -273,7 +275,6 @@
             text-align: center;
             width: 190px;
             height: 190px;
-            text-align: center;
             transition: width 0.4s, height 0.4s;
         }
         &__imagenes:hover
@@ -2018,7 +2019,7 @@
     {
        display: inline ;
     }
-    
+
     .menu__header
     {
         background-color:$color-azure;
