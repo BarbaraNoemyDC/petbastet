@@ -1019,8 +1019,6 @@ footer {
     justify-content: center;
     font-size: 3rem;
     margin: 0.1rem; }
-  .logo__bastet {
-    display: none; }
   .nav-item {
     display: flex;
     flex-direction: row;
