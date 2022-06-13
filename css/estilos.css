@@ -1489,11 +1489,15 @@ a:visited {
   color: red; }
 
 .resena {
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   display: flex;
   margin: 1rem;
   background-color: aliceblue;
-  border: 5px solid antiquewhite; }
+  border: 5px solid antiquewhite;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: baseline; }
   .resena__titulo {
     font-style: oblique;
     font-size: 1.8rem; }

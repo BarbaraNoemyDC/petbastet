@@ -55,12 +55,16 @@ a:visited
 }
 
 .resena
-{
-    flex-wrap: wrap;
+{   
+    flex-wrap: nowrap;
     display: flex;
     margin: 1rem;
-    background-color: $color-resena-index;
-    border: 5px solid $color-border-index;
+    background-color: aliceblue;
+    border: 5px solid antiquewhite;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: baseline;
     &__titulo
     {
         font-style:$font-principal;
