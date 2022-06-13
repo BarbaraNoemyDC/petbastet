@@ -87,9 +87,7 @@ footer {
 .footer__trabaja {
   background: #BAF0C4; }
 
-/* Celular */
 @media (min-width: 320px) and (max-width: 575px) {
-  /* INDEX PROBO FORMULARIO CON IPHONE 12 PRO / 390 X 844 */
   .navbar-nav {
     padding-right: 1px;
     padding-left: 8px; }
@@ -172,7 +170,6 @@ footer {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center; }
-  /* TIENDA */
   .tienda {
     display: flex;
     justify-content: center;
@@ -361,7 +358,6 @@ footer {
     justify-content: center;
     margin: 0px; } }
 
-/*TABLET*/
 @media (min-width: 576px) and (max-width: 768px) {
   header {
     display: flex; }
@@ -515,7 +511,6 @@ footer {
     width: 100%;
     height: 100%;
     font-size: 2.5rem; }
-  /*TRABAJA CON NOSOTROS*/
   form {
     justify-content: center;
     align-items: center; }
@@ -701,7 +696,6 @@ footer {
   .perros__imagenes:hover {
     width: 200px;
     height: 200px; }
-  /* GATOS*/
   .menu__header__gatos {
     background-color: #ffd697;
     justify-content: center; }
@@ -730,7 +724,6 @@ footer {
   .gatos__imagenes:hover {
     width: 200px;
     height: 200px; }
-  /*TRABAJA CON NOSOTROS*/
   form {
     justify-content: center;
     align-items: center; }
@@ -918,7 +911,6 @@ footer {
   .perros__imagenes:hover {
     width: 200px;
     height: 200px; }
-  /* GATOS*/
   .menu__header__gatos {
     background-color: #ffd697;
     justify-content: center; }
@@ -952,7 +944,6 @@ footer {
   .gatos__imagenes:hover {
     width: 200px;
     height: 200px; }
-  /*TRABAJA CON NOSOTROS*/
   form {
     justify-content: center;
     align-items: center; }
@@ -1132,7 +1123,6 @@ footer {
   .perros__imagenes:hover {
     width: 210px;
     height: 210px; }
-  /* GATOS*/
   .menu__header__gatos {
     background-color: #ffd697;
     justify-content: center; }
@@ -1165,7 +1155,6 @@ footer {
   .gatos__imagenes:hover {
     width: 210px;
     height: 210px; }
-  /*TRABAJA CON NOSOTROS*/
   form {
     justify-content: center;
     align-items: center; }
@@ -1355,7 +1344,6 @@ footer {
   .perros__imagenes:hover {
     width: 200px;
     height: 200px; }
-  /* GATOS*/
   .menu__header__gatos {
     background-color: #ffd697;
     justify-content: center; }
@@ -1388,7 +1376,6 @@ footer {
   .gatos__imagenes:hover {
     width: 200px;
     height: 200px; }
-  /*TRABAJA CON NOSOTROS*/
   form {
     justify-content: center;
     align-items: center; }
@@ -1463,8 +1450,8 @@ footer {
   border: 3px solid orange; }
 
 .tienda__imagenes {
-  border: 3px solid red;
-  border-radius: 30px; }
+  border-radius: 30px;
+  border: 3px solid red; }
 
 * {
   margin: 0;
@@ -1663,7 +1650,6 @@ ul {
   margin-left: 15px;
   margin-bottom: 20px; }
 
-/* TIENDA */
 .grid__tienda {
   display: flex;
   flex-wrap: wrap;
@@ -1714,7 +1700,6 @@ ul {
     width: 350px;
     height: 350px; }
 
-/*PERROS*/
 .grid__perros {
   display: flex;
   flex-wrap: wrap;
@@ -1782,7 +1767,6 @@ ul {
     transition: 0.5s ease-in;
     position: relative; }
 
-/* TRABAJA CON NOSOTROS */
 form {
   align-items: center;
   text-align: center; }

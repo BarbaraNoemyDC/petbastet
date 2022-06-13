@@ -1,7 +1,6 @@
-/* Celular */
+
 @media (min-width: 320px) and (max-width: 575px)
 {
-    /* INDEX PROBO FORMULARIO CON IPHONE 12 PRO / 390 X 844 */
    
     .navbar-nav  
     {
@@ -151,8 +150,6 @@
         justify-content: center;
 
     }
-
-    /* TIENDA */
 
     .tienda
     {
@@ -460,9 +457,7 @@
 }
 
 
-/*TABLET*/
 @media (min-width: 576px) and (max-width: 768px)
-/*los cambios estructurales SE PROBO EL FORMULARIO EN 541 X 844 */
 {
 
     header
@@ -732,16 +727,6 @@
         }
     }
 
-    
-    // .gatos__imagenes {
-    //     width: 180px;
-    //     height: 180px;
-    //     border-radius: 30px;
-    //     margin-right: 10px;
-    //     margin-bottom: 13px;
-    //     border: 3px solid orange; }
-
-    /*TRABAJA CON NOSOTROS*/
     form
     {
         justify-content: center;
@@ -846,7 +831,6 @@
 }
 
 @media (min-width: 767px) and (max-width: 991px)
-/*los cambios estructurales SE PROBO EL FORMULARIO EN 541 X 844 */
 {
 
     header
@@ -1075,8 +1059,6 @@
 
     }
 
-    /* GATOS*/
-
     .menu__header
     {
         &__gatos
@@ -1127,7 +1109,6 @@
         }
     }
    
-    /*TRABAJA CON NOSOTROS*/
     form
     {
         justify-content: center;
@@ -1233,7 +1214,6 @@
 
 
 @media (min-width: 991px) and (max-width: 1199px)
-/*los cambios estructurales SE PROBO EL FORMULARIO EN 541 X 844 */
 {
 
     header
@@ -1464,7 +1444,6 @@
 
     }
 
-    /* GATOS*/
 
     .menu__header
     {
@@ -1521,7 +1500,6 @@
         }
     }
 
-    /*TRABAJA CON NOSOTROS*/
     form
     {
         justify-content: center;
@@ -1842,10 +1820,6 @@
         }
     }
 
-
-
-    /* GATOS*/
-
     .menu__header
     {
         &__gatos
@@ -1900,7 +1874,6 @@
         }
     }
 
-    /*TRABAJA CON NOSOTROS*/
     form
     {
         justify-content: center;
@@ -2233,10 +2206,6 @@
         }
     }
 
-
-
-    /* GATOS*/
-
     .menu__header
     {
         &__gatos
@@ -2291,7 +2260,6 @@
         }
     }
 
-    /*TRABAJA CON NOSOTROS*/
     form
     {
         justify-content: center;
